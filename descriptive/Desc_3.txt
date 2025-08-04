@@ -1,0 +1,17 @@
+3. What is "Profiling" in FHIR? Why is it needed? 
+What is the difference between a Base Resource and a Profiled Resource?
+
+
+please put your response here ...
+ 
+Profiling in FHIR (Fast Healthcare Interoperability Resources) is the process of customizing or constraining the base FHIR resources to meet specific requirements for a particular use case, organization
+
+needed --
+
+cover a wide range of healthcare scenarios.
+Real-world implementations often need to specify which fields are required, what values are allowed, or add extra rules.
+ensuring consistent data exchange and interoperability for their specific context.
+
+
+Example--
+A country’s health authority might create a profile of the FHIR Patient resource that requires a national ID field and restricts certain fields to local code systems.

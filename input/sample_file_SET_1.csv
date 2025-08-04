@@ -1,0 +1,6 @@
+id,name,status,address_line,address_state,hours_of_operation_days_of_week,hours_of_operation_all_day,position_longitude,position_latitude
+RES101,Community Clinic,active,434 Rave Avenue,MI,mon,true,,
+RES101,Community Clinic,active,434 Rave Avenue,MI,sat,false,,
+RES102,East Lab Draw Site,active,252 Wise town,AZ,,,39.78,-89.65
+RES103,West Dental Site,active,777 Down Road,DE,,,,
+RES104,North Imaging Site,draft,252 Wise town,AZ,,,45.23,-67.78

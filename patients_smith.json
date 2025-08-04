@@ -1,0 +1,70 @@
+[
+  {
+    "resourceType": "Patient",
+    "id": "pat2",
+    "meta": {
+      "versionId": "6",
+      "lastUpdated": "2025-02-03T10:47:21.221+00:00",
+      "source": "#n1HxCzy7fO78KKI0",
+      "security": [
+        {
+          "system": "http://essai.abcfg.com/",
+          "code": "code1",
+          "display": "coded1"
+        }
+      ],
+      "tag": [
+        {
+          "system": "http://essai.abcfg.com/",
+          "code": "tag1",
+          "display": "tagd1"
+        }
+      ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">John <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>15 March 1985</span></td></tr></tbody></table></div>"
+    },
+    "name": [
+      {
+        "use": "official",
+        "family": "Smith",
+        "given": [
+          "John"
+        ]
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1985-03-15"
+  },
+  {
+    "resourceType": "Patient",
+    "id": "597226",
+    "meta": {
+      "versionId": "2",
+      "lastUpdated": "2025-06-26T19:51:38.230+00:00",
+      "source": "#xf2NjB02cyI8r76X"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sean <b>SMITH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 March 1937</span></td></tr></tbody></table></div>"
+    },
+    "name": [
+      {
+        "use": "official",
+        "family": "Smith",
+        "given": [
+          "Sean"
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "qd"
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1937-03-01"
+  }
+]

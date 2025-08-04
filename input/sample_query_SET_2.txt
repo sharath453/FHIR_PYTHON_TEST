@@ -1,0 +1,22 @@
+Use Case 2: 
+Deceased Patients 
+
+Scenario:
+Your analytics team needs a list of all patients who are deceased and were born between 1945 and 1985 
+
+Task:
+Write a Python program to:
+
+Fetch this data.
+
+Save the full response bundle as deceased_patients.json.
+
+Extract and write key patient information to a CSV file:
+    Patient ID
+    Name
+    Gender
+    Birthdate
+    DeceasedDateTime (if available)
+
+Note: please apply the Pagination logic and read all the resources from the response. 
+fir.ly threshold limit is _count=50 for one page.

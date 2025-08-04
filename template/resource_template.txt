@@ -1,0 +1,16 @@
+{
+  "resourceType": "Patient",
+  "identifier": [
+    {
+      "system": "http://hospital.smarthealth.org/patient-ids",
+      "value": "{{ identifier }}"
+    }
+  ],
+  "name": [
+    {
+      "text": "{{ name }}"
+    }
+  ],
+  "gender": "{{ gender }}",
+  "birthDate": "{{ birthDate }}"
+}

@@ -1,0 +1,14 @@
+2. What do you understand by a "Bundle" in FHIR? 
+When should it be used, what are the different types of Bundles available, and how do they differ from each other?
+
+please put your response here ...
+
+Bundle - Bundle is a group of different resource packaged into a single unit is called bundle.
+
+
+The different types of bundle are 
+1. batch - it will store each resoure in a bundle in a separete unit
+2. collection - it will store all in one pack
+3. transation - it will aslo store the data in separately but it is like atomic, complete or nothing
+
+ 

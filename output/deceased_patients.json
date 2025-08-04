@@ -1,0 +1,2723 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "entry": [
+    {
+      "fullUrl": "https://server.fire.ly/Patient/pat4",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat4",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<p>Patient Sandy Notsowell @ Acme Healthcare, Inc. MR = 123458, DECEASED</p>\n\t\t</div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "urn:oid:0.1.2.3.4.5.6.7",
+            "value": "123458"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Notsowell",
+            "given": [
+              "Sandy"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1982-08-02",
+        "deceasedBoolean": true,
+        "managingOrganization": {
+          "reference": "https://server.fire.ly/Organization/1",
+          "display": "ACME Healthcare, Inc"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            }
+          ],
+          "source": "http://essai.abcfg.com/source",
+          "versionId": "bb0706b6-af56-41f2-8d30-0aea1e54640b",
+          "lastUpdated": "2025-03-22T03:00:49.244+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/pat3",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat3",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      \n      <p>Patient Simon Notsowell @ Acme Healthcare, Inc. MR = 123457, DECEASED</p>\n    \n    </div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "urn:oid:0.1.2.3.4.5.6.7",
+            "value": "123457"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Notsowell",
+            "given": [
+              "Simon"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1982-01-23",
+        "deceasedDateTime": "2015-02-14T13:42:00+10:00",
+        "managingOrganization": {
+          "reference": "https://server.fire.ly/Organization/1",
+          "display": "ACME Healthcare, Inc"
+        },
+        "meta": {
+          "tag": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST",
+              "display": "test health data"
+            }
+          ],
+          "source": "http://essai.abcfg.com/source",
+          "versionId": "a5a6b5cf-be53-47c4-a2cc-ee65b5d80bfa",
+          "lastUpdated": "2025-03-22T03:00:48.220+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/c282c007-1482-4fa6-8848-2467e0ef80c5",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "urn:oid:0.1.2.3.4.5.6.7",
+            "value": "123457"
+          }
+        ],
+        "active": false,
+        "name": [
+          {
+            "use": "official",
+            "family": "Notsowell",
+            "given": [
+              "Simon"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1982-02-23",
+        "deceasedDateTime": "2015-02-14T13:42:00+10:00",
+        "managingOrganization": {
+          "reference": "https://server.fire.ly/Organization/1",
+          "display": "ACME Healthcare, Inc"
+        },
+        "id": "c282c007-1482-4fa6-8848-2467e0ef80c5",
+        "meta": {
+          "versionId": "8a737545-63ff-4028-9b38-576a77dee14e",
+          "lastUpdated": "2025-02-18T06:44:29.579+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/a2f1f8aa-4e2d-497e-a39d-bcb615d55b1d",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "urn:oid:0.1.2.3.4.5.6.7",
+            "value": "123457"
+          }
+        ],
+        "active": false,
+        "name": [
+          {
+            "use": "official",
+            "family": "Notsowell",
+            "given": [
+              "Simon"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1982-02-23",
+        "deceasedDateTime": "2015-02-14T13:42:00+10:00",
+        "managingOrganization": {
+          "reference": "https://server.fire.ly/Organization/1",
+          "display": "ACME Healthcare, Inc"
+        },
+        "id": "a2f1f8aa-4e2d-497e-a39d-bcb615d55b1d",
+        "meta": {
+          "versionId": "c0bcd9d5-c33e-419f-8fa2-9edcaf1010b4",
+          "lastUpdated": "2025-02-18T06:46:20.848+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/9ced88aa-07b6-4b8c-803f-a3e75e38b2f1",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "urn:oid:0.1.2.3.4.5.6.7",
+            "value": "123457"
+          }
+        ],
+        "active": false,
+        "name": [
+          {
+            "use": "official",
+            "family": "Notsowell",
+            "given": [
+              "Diamond"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1982-02-23",
+        "deceasedDateTime": "2015-02-14T13:42:00+10:00",
+        "managingOrganization": {
+          "reference": "https://server.fire.ly/Organization/1",
+          "display": "ACME Healthcare, Inc"
+        },
+        "id": "9ced88aa-07b6-4b8c-803f-a3e75e38b2f1",
+        "meta": {
+          "versionId": "1d2e66c6-1a66-4e6e-8218-224b46f4c255",
+          "lastUpdated": "2025-02-18T06:47:02.201+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/e9f0c692-1c1a-4de3-990e-0f9d368232c7",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "urn:oid:0.1.2.3.4.5.6.7",
+            "value": "123457"
+          }
+        ],
+        "active": false,
+        "name": [
+          {
+            "use": "official",
+            "family": "Notsowell",
+            "given": [
+              "Simon"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1982-02-23",
+        "deceasedDateTime": "2015-02-14T13:42:00+10:00",
+        "managingOrganization": {
+          "reference": "https://server.fire.ly/Organization/1",
+          "display": "ACME Healthcare, Inc"
+        },
+        "id": "e9f0c692-1c1a-4de3-990e-0f9d368232c7",
+        "meta": {
+          "versionId": "205be2af-7d0c-44c3-bd68-d284e6420c12",
+          "lastUpdated": "2025-02-18T06:47:51.360+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/66846213-1a24-4acc-b1b9-03b6a4c94d0a",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/birthPlace",
+            "valueAddress": {
+              "city": "Seattle"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000-12-3456"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Parks",
+            "given": [
+              "Christopher",
+              "C.H."
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1983-04-23",
+        "_birthDate": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+              "valueDateTime": "1983-04-23T07:44:00+00:00"
+            }
+          ]
+        },
+        "deceasedBoolean": true,
+        "contact": [
+          {
+            "name": {
+              "family": "Parks"
+            }
+          }
+        ],
+        "id": "66846213-1a24-4acc-b1b9-03b6a4c94d0a",
+        "meta": {
+          "versionId": "29f2aa91-7bd5-4da3-8c33-b66608c7be9b",
+          "lastUpdated": "2024-01-02T21:50:44.036+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/9ff66e03-9951-443a-b0c8-7067bdd07d25",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/birthPlace",
+            "valueAddress": {
+              "city": "Seattle"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000-12-3456"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Parks",
+            "given": [
+              "Christopher",
+              "C.H."
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1983-04-23",
+        "_birthDate": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+              "valueDateTime": "1983-04-23T07:44:00+00:00"
+            }
+          ]
+        },
+        "deceasedBoolean": true,
+        "contact": [
+          {
+            "name": {
+              "family": "Parks"
+            }
+          }
+        ],
+        "id": "9ff66e03-9951-443a-b0c8-7067bdd07d25",
+        "meta": {
+          "versionId": "c18a9c80-bb2d-49d2-a711-8c7ad5693b08",
+          "lastUpdated": "2024-01-02T21:53:15.037+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/c27dd7cd-78d7-4d56-93df-8175e46e2d13",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/birthPlace",
+            "valueAddress": {
+              "city": "Seattle"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000-12-3456"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Parks",
+            "given": [
+              "Christopher",
+              "C.H."
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1983-04-23",
+        "_birthDate": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+              "valueDateTime": "1983-04-23T07:44:00+00:00"
+            }
+          ]
+        },
+        "deceasedBoolean": true,
+        "contact": [
+          {
+            "name": {
+              "family": "Parks"
+            }
+          }
+        ],
+        "id": "c27dd7cd-78d7-4d56-93df-8175e46e2d13",
+        "meta": {
+          "versionId": "1f41f98e-3407-45ff-b8b5-fd539ce6cc48",
+          "lastUpdated": "2024-01-02T22:18:38.423+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/284c9bdd-befe-4ef6-9717-b8cbc44f5b03",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "id": "284c9bdd-befe-4ef6-9717-b8cbc44f5b03",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+          ],
+          "versionId": "3677e883-a387-431b-95cf-e2846e698c62",
+          "lastUpdated": "2024-04-01T11:33:09.797+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 7185ded\n .   Person seed: -1682762938517186231  Population seed: 1711739274042</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "White"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "Not Hispanic or Latino"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+            "valueString": "Marylin690 Herzog843"
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+            "valueCode": "F"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+            "valueAddress": {
+              "city": "Belmont",
+              "state": "Massachusetts",
+              "country": "US"
+            }
+          },
+          {
+            "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+            "valueDecimal": 0.24748752035016705
+          },
+          {
+            "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+            "valueDecimal": 1.752512479649833
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "12b51977-62c3-e2e9-9d0d-acfba27ba5e1"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ],
+              "text": "Medical Record Number"
+            },
+            "system": "http://hospital.smarthealthit.org",
+            "value": "12b51977-62c3-e2e9-9d0d-acfba27ba5e1"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "SS",
+                  "display": "Social Security Number"
+                }
+              ],
+              "text": "Social Security Number"
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "999-93-2830"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Kuphal363",
+            "given": [
+              "Cassie490"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "555-688-8356",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1965-04-02",
+        "deceasedDateTime": "1968-03-29T08:32:36+00:00",
+        "address": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/geolocation",
+                "extension": [
+                  {
+                    "url": "latitude",
+                    "valueDecimal": 42.151912047066695
+                  },
+                  {
+                    "url": "longitude",
+                    "valueDecimal": -70.92643512595299
+                  }
+                ]
+              }
+            ],
+            "line": [
+              "327 Fritsch Viaduct Apt 24"
+            ],
+            "city": "Rockland",
+            "state": "MA",
+            "postalCode": "00000",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "S",
+              "display": "Never Married"
+            }
+          ],
+          "text": "Never Married"
+        },
+        "multipleBirthBoolean": false,
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en-US",
+                  "display": "English (United States)"
+                }
+              ],
+              "text": "English (United States)"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/0b3a0b23a0c6e223b941e63787f15a6a",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "id": "0b3a0b23a0c6e223b941e63787f15a6a",
+        "meta": {
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ],
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data",
+          "versionId": "2ff27f31-bf12-4510-895c-41e723324263",
+          "lastUpdated": "2024-08-13T06:24:09.119+00:00"
+        },
+        "active": true,
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/pilot1-data",
+            "value": "p2"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1985-05-08",
+        "deceasedDateTime": "2017-03-10",
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "postalCode": "G02547"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/7b650be0176d6d29351f84314a5efbe3",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "id": "7b650be0176d6d29351f84314a5efbe3",
+        "meta": {
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ],
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data",
+          "versionId": "9aeadd1c-1071-4119-bc1c-22fc141b7e71",
+          "lastUpdated": "2024-08-13T06:24:09.423+00:00"
+        },
+        "active": true,
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/pilot1-data",
+            "value": "p5"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1965-10-01",
+        "deceasedDateTime": "2019-04-21",
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "postalCode": "G02547"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/5c102422-e63c-4ca3-8bee-e5ffe3f17a47",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "urn:oid:0.1.2.3.4.5.6.7",
+            "value": "123457"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Notsowell",
+            "given": [
+              "Simon"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1982-02-23",
+        "deceasedDateTime": "2015-02-14T13:42:00+10:00",
+        "managingOrganization": {
+          "reference": "https://server.fire.ly/Organization/1",
+          "display": "ACME Healthcare, Inc"
+        },
+        "id": "5c102422-e63c-4ca3-8bee-e5ffe3f17a47",
+        "meta": {
+          "versionId": "fbe8004e-b331-4c1d-acf2-638bee891dc3",
+          "lastUpdated": "2025-02-18T06:36:09.497+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/e3d2983c-c946-418a-9bd7-cdb7d0933127",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "urn:oid:0.1.2.3.4.5.6.7",
+            "value": "123457"
+          }
+        ],
+        "active": false,
+        "name": [
+          {
+            "use": "official",
+            "family": "Notsowell",
+            "given": [
+              "Simon"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1982-02-23",
+        "deceasedDateTime": "2015-02-14T13:42:00+10:00",
+        "managingOrganization": {
+          "reference": "https://server.fire.ly/Organization/1",
+          "display": "ACME Healthcare, Inc"
+        },
+        "id": "e3d2983c-c946-418a-9bd7-cdb7d0933127",
+        "meta": {
+          "versionId": "cf6faef7-30b3-4482-b00a-84a8b06936ee",
+          "lastUpdated": "2025-02-18T06:43:18.107+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/fc4d5be3-dafa-4f30-b280-6c33cd053fe9",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient"
+          ],
+          "versionId": "8c25496a-313b-4931-9803-c205ef926207",
+          "lastUpdated": "2023-04-24T12:19:00.875+00:00"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://www.uk-koeln.de/fhir/sid/patienten",
+            "value": "2306852452"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Christensen",
+            "given": [
+              "Flora"
+            ],
+            "prefix": [
+              "Dr. med."
+            ]
+          }
+        ],
+        "gender": "female",
+        "_gender": {
+          "extension": [
+            {
+              "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+              "valueCoding": {
+                "system": "http://fhir.de/CodeSystem/gender-amtlich-de",
+                "code": "W",
+                "display": "weiblich"
+              }
+            }
+          ]
+        },
+        "birthDate": "1961-12-18",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "physical",
+            "line": [
+              "Carif Highway Str. 827"
+            ],
+            "city": "Magdeburg",
+            "postalCode": "48379",
+            "country": "DE"
+          }
+        ],
+        "id": "fc4d5be3-dafa-4f30-b280-6c33cd053fe9"
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/3538ad7e-1ef6-44b8-bd4b-fdf32f4a7ca5",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient"
+          ],
+          "versionId": "7acccf4f-b6d5-42d1-b233-a1a3fcfd7d8e",
+          "lastUpdated": "2023-04-24T12:19:04.174+00:00"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://www.uk-koeln.de/fhir/sid/patienten",
+            "value": "0443074985"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Goodwin",
+            "given": [
+              "Rachel"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "gender": "unknown",
+        "_gender": {
+          "extension": [
+            {
+              "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+              "valueCoding": {
+                "system": "http://fhir.de/CodeSystem/gender-amtlich-de",
+                "code": "X",
+                "display": "unbestimmt"
+              }
+            }
+          ]
+        },
+        "birthDate": "1962-11-19",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "physical",
+            "line": [
+              "Cehi Grove Str. 787"
+            ],
+            "city": "Karlsruhe",
+            "postalCode": "8430",
+            "country": "DE"
+          }
+        ],
+        "id": "3538ad7e-1ef6-44b8-bd4b-fdf32f4a7ca5"
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/86c4adfe-7085-4834-84ce-c6e967137f09",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient"
+          ],
+          "versionId": "04ca0e22-e0de-407b-ba7f-e37e7085109c",
+          "lastUpdated": "2023-04-24T12:39:57.656+00:00"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://www.uk-koeln.de/fhir/sid/patienten",
+            "value": "2370124390"
+          }
+        ],
+        "name": [
+          {
+            "use": "usual",
+            "family": "Reyes",
+            "given": [
+              "Kyle"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "gender": "male",
+        "_gender": {
+          "extension": [
+            {
+              "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+              "valueCoding": {
+                "system": "http://fhir.de/CodeSystem/gender-amtlich-de",
+                "code": "M",
+                "display": "m\u00e4nnlich"
+              }
+            }
+          ]
+        },
+        "birthDate": "1979-12-21",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "physical",
+            "line": [
+              "Pegzav Extension Str. 217"
+            ],
+            "city": "Duisburg",
+            "postalCode": "75079",
+            "country": "DE"
+          }
+        ],
+        "id": "86c4adfe-7085-4834-84ce-c6e967137f09"
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/cb72a8e0-b3a2-46ce-bf11-8629bba5edb7",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient"
+          ],
+          "versionId": "23d456f8-0e39-41d5-9bcb-805cbfb79912",
+          "lastUpdated": "2023-04-24T12:39:59.833+00:00"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://www.uk-koeln.de/fhir/sid/patienten",
+            "value": "9477410912"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Martinez",
+            "given": [
+              "Dale"
+            ],
+            "prefix": [
+              "Dr. med."
+            ]
+          }
+        ],
+        "gender": "unknown",
+        "_gender": {
+          "extension": [
+            {
+              "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+              "valueCoding": {
+                "system": "http://fhir.de/CodeSystem/gender-amtlich-de",
+                "code": "X",
+                "display": "unbestimmt"
+              }
+            }
+          ]
+        },
+        "birthDate": "1979-12-19",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "both",
+            "line": [
+              "Kiwze River Str. 134"
+            ],
+            "city": "Flensburg",
+            "postalCode": "27698",
+            "country": "DE"
+          }
+        ],
+        "id": "cb72a8e0-b3a2-46ce-bf11-8629bba5edb7"
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/e3e1fd88-cd9c-482f-84f1-a49f2326cb4c",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient"
+          ],
+          "versionId": "d3a8f60b-ad9a-4557-b7e0-1bbf17831f9b",
+          "lastUpdated": "2023-04-24T12:40:00.039+00:00"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://www.uk-koeln.de/fhir/sid/patienten",
+            "value": "2306852452"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Christensen",
+            "given": [
+              "Flora"
+            ],
+            "prefix": [
+              "Dr. med."
+            ]
+          }
+        ],
+        "gender": "female",
+        "_gender": {
+          "extension": [
+            {
+              "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+              "valueCoding": {
+                "system": "http://fhir.de/CodeSystem/gender-amtlich-de",
+                "code": "W",
+                "display": "weiblich"
+              }
+            }
+          ]
+        },
+        "birthDate": "1961-12-18",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "physical",
+            "line": [
+              "Carif Highway Str. 827"
+            ],
+            "city": "Magdeburg",
+            "postalCode": "48379",
+            "country": "DE"
+          }
+        ],
+        "id": "e3e1fd88-cd9c-482f-84f1-a49f2326cb4c"
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/cbd009b1-40af-4f77-b98f-05201f7709f5",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient"
+          ],
+          "versionId": "f7e69161-891f-4283-a3be-c87b15d722a7",
+          "lastUpdated": "2023-04-24T12:40:02.965+00:00"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://www.uk-koeln.de/fhir/sid/patienten",
+            "value": "0443074985"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Goodwin",
+            "given": [
+              "Rachel"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "gender": "unknown",
+        "_gender": {
+          "extension": [
+            {
+              "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+              "valueCoding": {
+                "system": "http://fhir.de/CodeSystem/gender-amtlich-de",
+                "code": "X",
+                "display": "unbestimmt"
+              }
+            }
+          ]
+        },
+        "birthDate": "1962-11-19",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "physical",
+            "line": [
+              "Cehi Grove Str. 787"
+            ],
+            "city": "Karlsruhe",
+            "postalCode": "8430",
+            "country": "DE"
+          }
+        ],
+        "id": "cbd009b1-40af-4f77-b98f-05201f7709f5"
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/c0ab9710-7efd-4e4c-9ffb-f372e073227a",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient"
+          ],
+          "versionId": "3316e5ac-5433-4d9e-8403-27c53509eabd",
+          "lastUpdated": "2023-04-24T12:45:08.894+00:00"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://www.uk-koeln.de/fhir/sid/patienten",
+            "value": "2370124390"
+          }
+        ],
+        "name": [
+          {
+            "use": "usual",
+            "family": "Reyes",
+            "given": [
+              "Kyle"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "gender": "male",
+        "_gender": {
+          "extension": [
+            {
+              "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+              "valueCoding": {
+                "system": "http://fhir.de/CodeSystem/gender-amtlich-de",
+                "code": "M",
+                "display": "m\u00c3\u00a4nnlich"
+              }
+            }
+          ]
+        },
+        "birthDate": "1979-12-21",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "physical",
+            "line": [
+              "Pegzav Extension Str. 217"
+            ],
+            "city": "Duisburg",
+            "postalCode": "75079",
+            "country": "DE"
+          }
+        ],
+        "id": "c0ab9710-7efd-4e4c-9ffb-f372e073227a"
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/882e6037-5145-47d2-b194-663c821989ec",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient"
+          ],
+          "versionId": "4b7e5944-6821-4b86-9ea9-493c99b74894",
+          "lastUpdated": "2023-04-24T12:45:11.128+00:00"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://www.uk-koeln.de/fhir/sid/patienten",
+            "value": "9477410912"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Martinez",
+            "given": [
+              "Dale"
+            ],
+            "prefix": [
+              "Dr. med."
+            ]
+          }
+        ],
+        "gender": "unknown",
+        "_gender": {
+          "extension": [
+            {
+              "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+              "valueCoding": {
+                "system": "http://fhir.de/CodeSystem/gender-amtlich-de",
+                "code": "X",
+                "display": "unbestimmt"
+              }
+            }
+          ]
+        },
+        "birthDate": "1979-12-19",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "both",
+            "line": [
+              "Kiwze River Str. 134"
+            ],
+            "city": "Flensburg",
+            "postalCode": "27698",
+            "country": "DE"
+          }
+        ],
+        "id": "882e6037-5145-47d2-b194-663c821989ec"
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/e626ec01-f29c-4f0d-8cbe-273b24cf0ff7",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient"
+          ],
+          "versionId": "98ac92c9-ebd2-4aef-ae84-bd3a594db558",
+          "lastUpdated": "2023-04-24T12:45:11.268+00:00"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://www.uk-koeln.de/fhir/sid/patienten",
+            "value": "2306852452"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Christensen",
+            "given": [
+              "Flora"
+            ],
+            "prefix": [
+              "Dr. med."
+            ]
+          }
+        ],
+        "gender": "female",
+        "_gender": {
+          "extension": [
+            {
+              "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+              "valueCoding": {
+                "system": "http://fhir.de/CodeSystem/gender-amtlich-de",
+                "code": "W",
+                "display": "weiblich"
+              }
+            }
+          ]
+        },
+        "birthDate": "1961-12-18",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "physical",
+            "line": [
+              "Carif Highway Str. 827"
+            ],
+            "city": "Magdeburg",
+            "postalCode": "48379",
+            "country": "DE"
+          }
+        ],
+        "id": "e626ec01-f29c-4f0d-8cbe-273b24cf0ff7"
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/eae9374c-2450-453b-b463-280e3eeb7b66",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient"
+          ],
+          "versionId": "83befbba-888c-43dc-acab-91b167c60988",
+          "lastUpdated": "2023-04-24T12:45:13.949+00:00"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://www.uk-koeln.de/fhir/sid/patienten",
+            "value": "0443074985"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Goodwin",
+            "given": [
+              "Rachel"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "gender": "unknown",
+        "_gender": {
+          "extension": [
+            {
+              "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+              "valueCoding": {
+                "system": "http://fhir.de/CodeSystem/gender-amtlich-de",
+                "code": "X",
+                "display": "unbestimmt"
+              }
+            }
+          ]
+        },
+        "birthDate": "1962-11-19",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "physical",
+            "line": [
+              "Cehi Grove Str. 787"
+            ],
+            "city": "Karlsruhe",
+            "postalCode": "8430",
+            "country": "DE"
+          }
+        ],
+        "id": "eae9374c-2450-453b-b463-280e3eeb7b66"
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/06b255e3-23e1-40f0-bcd7-8ccdf36a1082",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient"
+          ],
+          "versionId": "8150e039-8a78-4f5a-9906-76e91ca649c4",
+          "lastUpdated": "2023-04-24T14:32:46.156+00:00"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://www.uk-koeln.de/fhir/sid/patienten",
+            "value": "6633039407"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Reid",
+            "given": [
+              "Lucille"
+            ],
+            "prefix": [
+              "Dr. med."
+            ]
+          }
+        ],
+        "gender": "male",
+        "_gender": {
+          "extension": [
+            {
+              "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+              "valueCoding": {
+                "system": "http://fhir.de/CodeSystem/gender-amtlich-de",
+                "code": "M",
+                "display": "m\u00c3\u00a4nnlich"
+              }
+            }
+          ]
+        },
+        "birthDate": "1949-04-12",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "both",
+            "line": [
+              "Curbuc Boulevard Str. 573"
+            ],
+            "city": "Hagen",
+            "postalCode": "93042",
+            "country": "DE"
+          }
+        ],
+        "id": "06b255e3-23e1-40f0-bcd7-8ccdf36a1082"
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/I53-CJ4t",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "id": "I53-CJ4t",
+        "meta": {
+          "lastUpdated": "2023-06-22T16:42:42.744+00:00",
+          "versionId": "f3411de6-11f5-4ad8-a69e-ec6293ec0a96"
+        },
+        "extension": [
+          {
+            "url": "https://hl7.pt/fhir/StructureDefinition/BirthPlace",
+            "valueAddress": {
+              "extension": [
+                {
+                  "url": "https://hl7.pt/fhir/StructureDefinition/Address",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "https://www.ine.pt/freguesias"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "use": "temp",
+              "state": "PORTO"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://www.glintt.com/globalcare/patient",
+            "value": "I53-CJ4t"
+          },
+          {
+            "use": "usual",
+            "system": "https://www.glintt.com/globalcare/patient",
+            "value": "HS-117"
+          },
+          {
+            "use": "secondary",
+            "system": "https://www.glintt.com/globalcare/patientReadable",
+            "value": "|HS|117"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "HC",
+                  "display": "Health Card Number"
+                }
+              ]
+            },
+            "system": "https://spms.min-saude.pt",
+            "value": "396882469"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PI",
+                  "display": "Patient internal identifier"
+                }
+              ]
+            },
+            "system": "https://www.glintt.com/globalcare",
+            "value": "HS-117"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "CZ",
+                  "display": "Citizenship Card"
+                }
+              ]
+            },
+            "system": "https://irn.justica.gov.pt",
+            "value": "13045390"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "IRENE FATIMA RAMOS NEVES"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1974-04-16",
+        "deceasedDateTime": "2018-04-06T15:09:00+01:00",
+        "address": [
+          {
+            "extension": [
+              {
+                "url": "https://hl7.pt/fhir/StructureDefinition/Address",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.ine.pt/freguesias",
+                      "code": "0"
+                    }
+                  ],
+                  "text": "PORTO"
+                }
+              }
+            ],
+            "use": "home",
+            "line": [
+              "RUA DE BAIXO, 457"
+            ],
+            "district": "PORTO",
+            "state": "PORTO",
+            "postalCode": "4200-008",
+            "country": "Portugal"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/I53-CJ8n",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "id": "I53-CJ8n",
+        "meta": {
+          "lastUpdated": "2023-06-23T09:35:48.164+00:00",
+          "versionId": "e7d07d7e-7c71-4e60-ac31-c1fe90a4fa95"
+        },
+        "extension": [
+          {
+            "url": "https://hl7.pt/fhir/StructureDefinition/BirthPlace",
+            "valueAddress": {
+              "extension": [
+                {
+                  "url": "https://hl7.pt/fhir/StructureDefinition/Address",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "https://www.ine.pt/freguesias"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "use": "temp",
+              "state": "BRAGA"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://www.glintt.com/globalcare/patient",
+            "value": "I53-CJ8n"
+          },
+          {
+            "use": "usual",
+            "system": "https://www.glintt.com/globalcare/patient",
+            "value": "HS-121"
+          },
+          {
+            "use": "secondary",
+            "system": "https://www.glintt.com/globalcare/patientReadable",
+            "value": "|HS|121"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "HC",
+                  "display": "Health Card Number"
+                }
+              ]
+            },
+            "system": "https://spms.min-saude.pt",
+            "value": "435"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PI",
+                  "display": "Patient internal identifier"
+                }
+              ]
+            },
+            "system": "https://www.glintt.com/globalcare",
+            "value": "HS-121"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PT",
+                  "display": "Patient external identifier"
+                }
+              ]
+            },
+            "value": "8787997"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "CZ",
+                  "display": "Citizenship Card"
+                }
+              ]
+            },
+            "system": "https://irn.justica.gov.pt",
+            "value": "12548542"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PT",
+                  "display": "Patient external identifier"
+                }
+              ]
+            },
+            "system": "https://www.sef.pt",
+            "value": "4"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "TAX",
+                  "display": "Tax ID number"
+                }
+              ]
+            },
+            "system": "https://www.portaldasfinancas.gov.pt",
+            "value": "251680797"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "DOENTE TESTE CIRCUITO BLOCO"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1967-08-09",
+        "deceasedDateTime": "2019-08-22T00:00:00+01:00",
+        "address": [
+          {
+            "extension": [
+              {
+                "url": "https://hl7.pt/fhir/StructureDefinition/Address",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.ine.pt/freguesias",
+                      "code": "1"
+                    }
+                  ],
+                  "text": "ABADE DE NEIVA"
+                }
+              }
+            ],
+            "use": "home",
+            "line": [
+              "RUA OLIVEIRAS, 28"
+            ],
+            "district": "BARCELOS",
+            "state": "BRAGA",
+            "country": "Portugal"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/I53-CJ8m",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "id": "I53-CJ8m",
+        "meta": {
+          "lastUpdated": "2023-06-23T09:35:48.204+00:00",
+          "versionId": "24162d8e-23bf-4b57-91e5-c301d9d17f39"
+        },
+        "extension": [
+          {
+            "url": "https://hl7.pt/fhir/StructureDefinition/BirthPlace",
+            "valueAddress": {
+              "extension": [
+                {
+                  "url": "https://hl7.pt/fhir/StructureDefinition/Address",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "https://www.ine.pt/freguesias"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "use": "temp"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://www.glintt.com/globalcare/patient",
+            "value": "I53-CJ8m"
+          },
+          {
+            "use": "usual",
+            "system": "https://www.glintt.com/globalcare/patient",
+            "value": "HS-120"
+          },
+          {
+            "use": "secondary",
+            "system": "https://www.glintt.com/globalcare/patientReadable",
+            "value": "|HS|120"
+          },
+          {
+            "use": "secondary",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PI",
+                  "display": "Patient internal identifier"
+                }
+              ]
+            },
+            "system": "https://www.glintt.com/globalcare",
+            "value": "HS-120"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "TESTE CAMPOS OBRIGAT\u00d3RIOS MARCA\u00c7\u00c3O"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1976-04-05",
+        "deceasedDateTime": "2014-05-19T00:00:00+01:00",
+        "address": [
+          {
+            "extension": [
+              {
+                "url": "https://hl7.pt/fhir/StructureDefinition/Address",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://www.ine.pt/freguesias"
+                    }
+                  ]
+                }
+              }
+            ],
+            "use": "home",
+            "line": [
+              "RUA OLIVEIRAS, 26"
+            ],
+            "country": "Portugal"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/1072fc84-f91e-863d-9ac1-647907e45e29",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "id": "1072fc84-f91e-863d-9ac1-647907e45e29",
+        "meta": {
+          "versionId": "e8542a6b-c835-477a-aa11-6f9bd8187eb7",
+          "lastUpdated": "2023-09-17T00:27:49.208+00:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: synthea-java .   Person seed: -6673918745159145576  Population seed: 1674304445784</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+            "valueString": "Charles364 Altenwerth646"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+            "valueAddress": {
+              "city": "Boston",
+              "state": "Massachusetts",
+              "country": "US"
+            }
+          },
+          {
+            "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+            "valueDecimal": 1.0797985364810534
+          },
+          {
+            "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+            "valueDecimal": 39.92020146351895
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "1072fc84-f91e-863d-9ac1-647907e45e29"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ],
+              "text": "Medical Record Number"
+            },
+            "system": "http://hospital.smarthealthit.org",
+            "value": "1072fc84-f91e-863d-9ac1-647907e45e29"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "SS",
+                  "display": "Social Security Number"
+                }
+              ],
+              "text": "Social Security Number"
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "999-51-9978"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "DL",
+                  "display": "Driver's License"
+                }
+              ],
+              "text": "Driver's License"
+            },
+            "system": "urn:oid:2.16.840.1.113883.4.3.25",
+            "value": "S99971161"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PPN",
+                  "display": "Passport Number"
+                }
+              ],
+              "text": "Passport Number"
+            },
+            "system": "http://standardhealthrecord.org/fhir/StructureDefinition/passportNumber",
+            "value": "X33701620X"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Zemlak964",
+            "given": [
+              "Leann224"
+            ],
+            "prefix": [
+              "Mrs."
+            ]
+          },
+          {
+            "use": "maiden",
+            "family": "Hoeger474",
+            "given": [
+              "Leann224"
+            ],
+            "prefix": [
+              "Mrs."
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "555-606-9681",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1976-07-22",
+        "deceasedDateTime": "2018-10-14T00:22:14+00:00",
+        "address": [
+          {
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "latitude",
+                    "valueDecimal": 42.51721117172933
+                  },
+                  {
+                    "url": "longitude",
+                    "valueDecimal": -71.05635300983609
+                  }
+                ],
+                "url": "http://hl7.org/fhir/StructureDefinition/geolocation"
+              }
+            ],
+            "line": [
+              "606 Mills Wynd Unit 62"
+            ],
+            "city": "Saugus",
+            "state": "Massachusetts",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "M"
+            }
+          ],
+          "text": "M"
+        },
+        "multipleBirthBoolean": false,
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en-US",
+                  "display": "English"
+                }
+              ],
+              "text": "English"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/louis-test",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "id": "louis-test",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: synthea-java .   Person seed: -6673918745159145576  Population seed: 1674304445784</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName",
+            "valueString": "Charles364 Altenwerth646"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+            "valueAddress": {
+              "city": "Boston",
+              "state": "Massachusetts",
+              "country": "US"
+            }
+          },
+          {
+            "url": "http://synthetichealth.github.io/synthea/disability-adjusted-life-years",
+            "valueDecimal": 1.0797985364810534
+          },
+          {
+            "url": "http://synthetichealth.github.io/synthea/quality-adjusted-life-years",
+            "valueDecimal": 39.92020146351895
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "louis-test"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ],
+              "text": "Medical Record Number"
+            },
+            "system": "http://hospital.smarthealthit.org",
+            "value": "1072fc84-f91e-863d-9ac1-647907e45e29"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "SS",
+                  "display": "Social Security Number"
+                }
+              ],
+              "text": "Social Security Number"
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "999-51-9978"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "DL",
+                  "display": "Driver's License"
+                }
+              ],
+              "text": "Driver's License"
+            },
+            "system": "urn:oid:2.16.840.1.113883.4.3.25",
+            "value": "S99971161"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PPN",
+                  "display": "Passport Number"
+                }
+              ],
+              "text": "Passport Number"
+            },
+            "system": "http://standardhealthrecord.org/fhir/StructureDefinition/passportNumber",
+            "value": "X33701620X"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Zemlak964",
+            "given": [
+              "Leann224"
+            ],
+            "prefix": [
+              "Mrs."
+            ]
+          },
+          {
+            "use": "maiden",
+            "family": "Hoeger474",
+            "given": [
+              "Leann224"
+            ],
+            "prefix": [
+              "Mrs."
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "555-606-9681",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1976-07-22",
+        "deceasedDateTime": "2018-10-14T00:22:14+00:00",
+        "address": [
+          {
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "latitude",
+                    "valueDecimal": 42.51721117172933
+                  },
+                  {
+                    "url": "longitude",
+                    "valueDecimal": -71.05635300983609
+                  }
+                ],
+                "url": "http://hl7.org/fhir/StructureDefinition/geolocation"
+              }
+            ],
+            "line": [
+              "606 Mills Wynd Unit 62"
+            ],
+            "city": "Saugus",
+            "state": "Massachusetts",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "M"
+            }
+          ],
+          "text": "M"
+        },
+        "multipleBirthBoolean": false,
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en-US",
+                  "display": "English"
+                }
+              ],
+              "text": "English"
+            }
+          }
+        ],
+        "meta": {
+          "versionId": "ef50c138-cb91-401a-9a68-3fe536d67fe4",
+          "lastUpdated": "2023-12-14T13:00:03.008+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/522c3f39-2e31-458b-bd7d-c1c2ddbbaf68",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "id": "522c3f39-2e31-458b-bd7d-c1c2ddbbaf68",
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "NNCOL",
+                  "display": "National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code"
+                }
+              ],
+              "text": "Numero de identificaci\u00f3n oficial para COLOMBIA"
+            },
+            "period": {
+              "start": "1980-09-02"
+            },
+            "use": "official",
+            "value": "987456321"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://www.registraduria.gov.co/-Glosario-de-identificacion-.html",
+                  "code": "CC",
+                  "display": "Cedula de Ciudadania"
+                }
+              ]
+            },
+            "use": "official",
+            "value": "987456321"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://clinicaimbanaco.com.co/his/fhir/v10/0203",
+                  "code": "PI",
+                  "display": "Patient internal identifier"
+                }
+              ]
+            },
+            "use": "usual",
+            "value": "2107582"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "VALDERRAMA VALDERRAMA",
+            "_family": {
+              "extension": [
+                {
+                  "id": "humanname-mothers-family",
+                  "url": "http://hl7.org/fhir/StructureDefinition/humanname-fathers-family",
+                  "valueString": "VALDERRAMA"
+                },
+                {
+                  "id": "humanname-mothers-family",
+                  "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                  "valueString": "VALDERRAMA"
+                }
+              ]
+            },
+            "given": [
+              "CARLOS",
+              "ALBERTO"
+            ],
+            "text": "CARLOS ALBERTO VALDERRAMA PEREZ"
+          },
+          {
+            "use": "nickname",
+            "family": "VALDERRAMA",
+            "given": [
+              "EL PIBE"
+            ],
+            "text": "EL PIBE VALDERRAMA"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "6051010101",
+            "use": "home",
+            "rank": 2
+          },
+          {
+            "system": "phone",
+            "value": "3011010101",
+            "use": "mobile",
+            "rank": 1
+          },
+          {
+            "system": "email",
+            "value": "elpibe@gmail.com",
+            "use": "work",
+            "rank": 3
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1962-09-02",
+        "deceasedDateTime": "2062-07-22",
+        "address": [
+          {
+            "use": "work",
+            "line": [
+              "carrera 41A  26 A  24"
+            ],
+            "state": "Valle del Cauca",
+            "city": "Cali",
+            "country": "Colombia",
+            "period": {
+              "start": "1985-01-01",
+              "end": "1988-01-01"
+            }
+          },
+          {
+            "use": "home",
+            "line": [
+              "Carrera 20 #80 - 55"
+            ],
+            "city": "Santa Marta",
+            "state": "Magdalena",
+            "country": "Colombia",
+            "period": {
+              "start": "1988-01-02"
+            }
+          }
+        ],
+        "photo": [
+          {
+            "url": "https://www.google.com/url?sa=i&url=http%3A%2F%2Ft2.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcQVZD60I-n8wFFurtlBfeanEpMMidx0lrXsSQGyyCv6OAqeREM5wq_miFJ00c5b28TQZwruISNJtsuiqsw&psig=AOvVaw2ToMBswn3IvBp0CPS7yc2A&ust=1678741189345000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPj_sbOk1_0CFQAAAAAdAAAAABAE"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "36629006",
+              "display": "Legally married"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "Married"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  }
+                ],
+                "text": "Esposa"
+              }
+            ],
+            "name": {
+              "use": "official",
+              "family": "Redondo",
+              "given": [
+                "Elvira"
+              ]
+            },
+            "telecom": [
+              {
+                "system": "email",
+                "value": "elvira.Redondo@gmail.com",
+                "use": "home"
+              }
+            ]
+          },
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  }
+                ],
+                "text": "Padre"
+              }
+            ],
+            "name": {
+              "use": "official",
+              "family": "Valderrama",
+              "given": [
+                "Jaricho"
+              ]
+            }
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "es"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "meta": {
+          "versionId": "bc746f9e-41b3-4cde-b0a1-57e6dfbd05c3",
+          "lastUpdated": "2023-03-16T13:57:41.838+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/29eaca9d-07b6-4468-bf22-61bd0141f147",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient"
+          ],
+          "versionId": "2af979eb-a294-4325-8795-735e6b14cdc2",
+          "lastUpdated": "2023-04-24T12:18:58.336+00:00"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://www.uk-koeln.de/fhir/sid/patienten",
+            "value": "2370124390"
+          }
+        ],
+        "name": [
+          {
+            "use": "usual",
+            "family": "Reyes",
+            "given": [
+              "Kyle"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "gender": "male",
+        "_gender": {
+          "extension": [
+            {
+              "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+              "valueCoding": {
+                "system": "http://fhir.de/CodeSystem/gender-amtlich-de",
+                "code": "M",
+                "display": "m\u00e4nnlich"
+              }
+            }
+          ]
+        },
+        "birthDate": "1979-12-21",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "physical",
+            "line": [
+              "Pegzav Extension Str. 217"
+            ],
+            "city": "Duisburg",
+            "postalCode": "75079",
+            "country": "DE"
+          }
+        ],
+        "id": "29eaca9d-07b6-4468-bf22-61bd0141f147"
+      }
+    },
+    {
+      "fullUrl": "https://server.fire.ly/Patient/a1714bda-5e77-4b98-99f0-7af4c77255a6",
+      "search": {
+        "mode": "match"
+      },
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient"
+          ],
+          "versionId": "61b1de4f-b6b9-44f0-b536-e7c5de28b054",
+          "lastUpdated": "2023-04-24T12:19:00.710+00:00"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://www.uk-koeln.de/fhir/sid/patienten",
+            "value": "9477410912"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Martinez",
+            "given": [
+              "Dale"
+            ],
+            "prefix": [
+              "Dr. med."
+            ]
+          }
+        ],
+        "gender": "unknown",
+        "_gender": {
+          "extension": [
+            {
+              "url": "http://fhir.de/StructureDefinition/gender-amtlich-de",
+              "valueCoding": {
+                "system": "http://fhir.de/CodeSystem/gender-amtlich-de",
+                "code": "X",
+                "display": "unbestimmt"
+              }
+            }
+          ]
+        },
+        "birthDate": "1979-12-19",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "type": "both",
+            "line": [
+              "Kiwze River Str. 134"
+            ],
+            "city": "Flensburg",
+            "postalCode": "27698",
+            "country": "DE"
+          }
+        ],
+        "id": "a1714bda-5e77-4b98-99f0-7af4c77255a6"
+      }
+    }
+  ]
+}

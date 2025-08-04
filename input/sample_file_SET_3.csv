@@ -1,0 +1,6 @@
+id,status,beneficiary_patient_id,payor_organization_id,type_code,plan_value,period_start,period_end
+RES301,cancelled,PAT001,ORG001,EHCPOL,Medicare Plan,2020-01-01,2030-12-31
+RES302,,PAT002,ORG002,HMO,Medicaid Plan,2024-02-15,2025-02-14
+RES303,active,PAT003,ORG003,,Silver Plan,2015-04-01,2045-04-01
+RES303,active,PAT003,ORG003,,Gold Plan,2015-04-01,2045-04-01
+RES304,active,PAT004,,DRUGPOL,Premium Plan,2024-01-01,2030-12-31

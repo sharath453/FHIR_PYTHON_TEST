@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.pyvenv/
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Log files
+*.log
+
+# Environment files
+*.env
+.env.*
+
+# FHIR data files
+# output/
+# *.json
+# *.csv
+# *.ndjson
+
+# Test and temp files
+temp/
+tmp/
+*.bak
+
+# Pip dependency log
+pip-log.txt
+
+# Ignore requirements backup
+requirements*.bak

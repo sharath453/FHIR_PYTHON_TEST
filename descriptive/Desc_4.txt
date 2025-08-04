@@ -1,0 +1,38 @@
+4. What do you understand by Serialization and Deserialization? Explain their purpose with an example.
+
+
+please write your response here ...
+
+serialization - the data is present idd we try to convert this data into a format like FHIR so that we can transefer and store in  aparticular form.
+python object to json format
+
+example - 
+
+dumps and dump we use for this things
+
+import json
+
+patient = {
+    "resourceType": "Patient",
+    "id": "P001",
+    "name": [
+        {
+            "use": "official",
+            "family": "Sharath",
+            "given": ["A", "L"]
+        }
+    ],
+    "gender": "male"
+}
+
+patient_json = json.dumps(patient, indent=2)
+print(patient_json)
+
+
+
+Deserialization - it means that if we have a json format data we have to convert that to a python object again so for that purpose we use Deserialization 
+json data to python object
+
+example -
+patient_obj = json.loads(patient_json)
+print(patient_obj)

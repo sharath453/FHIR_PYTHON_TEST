@@ -1,0 +1,14 @@
+1. What is "FHIR", and what problems does it aim to solve in the healthcare domain? 
+
+please write your response here ...
+ 
+FHIR (Fast healthcare interportabality resource) is a standrad format for data transfer and storage delevope by the HL7(health level 7)
+
+The main problem which fire is aim to slove is their is a communication gap between the different resources like 
+1. organization
+2. coverage 
+3. payer
+4. patient
+5. practioner
+
+so from fire format every body can know what they are actually want to know like clime and other things

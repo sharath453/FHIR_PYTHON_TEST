@@ -1,0 +1,6 @@
+identifier,name,gender,birthDate,error
+12345,John Doe,male,1980-01-01,Missing required fields
+12346,,female,1992-05-15,Missing required fields
+12345,Jane Smith,female,1985-08-21,Missing required fields
+12347,Mark King,male,,Missing required fields
+12348,Alice Moore,female,1990-12-12,Missing required fields

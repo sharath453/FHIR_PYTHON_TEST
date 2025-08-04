@@ -1,0 +1,14 @@
+Use Case : Demo
+----------------
+
+You are working with a healthcare research team to analyze recently updated male patients 
+demographic details.
+
+Fetch all Patient resources from https://server.fire.ly server
+
+Where:
+gender is male
+_lastUpdated is greater than or equal to 2025-08-01
+
+Note: please apply the Pagination logic and read all the resources from the response. 
+fir.ly threshold limit is _count=50 for one page.

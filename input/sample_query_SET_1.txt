@@ -1,0 +1,25 @@
+Use Case 1: 
+------------
+
+Active Coverage with Payor Organization
+
+Scenario:
+
+You are building an insurance verification app. 
+You need to fetch all active Coverage resources for a specific patient using their identifier(MRN-123), 
+and also pull in the payor Organization for each coverage.
+
+Task:
+
+write a python program to
+Fetch all Coverage and Payor Organization resources from https://server.fire.ly server
+
+Where:
+
+patient identifier is "MRN-123"
+
+once you get the resources write them separetly as Coverage.json and Organization.json files
+into output folder 
+
+Note: please apply the Pagination logic and read all the resources from the response. 
+fir.ly threshold limit is _count=50 for one page.
