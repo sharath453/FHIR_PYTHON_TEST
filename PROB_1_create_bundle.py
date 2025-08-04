@@ -46,7 +46,7 @@ def transform_to_location_resource(resource_key, resource_group):
         },
         "meta": {
             "tag": [{
-                "code": f"Learners-{USER_TAG}",
+                "code": "Learners-SHARATH A L",
                 "display": "Learners-FHIR-Assessment"
             }]
         }
